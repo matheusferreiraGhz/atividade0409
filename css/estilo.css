@@ -13,13 +13,16 @@ p{
     width: 100%;
     height: 70px;
     background-color: white;
+    display: flex;
 
 }
 .azul{
     width: 100%;
     height: 300px;
-    background-color: mediumblue;
-    justify-items: center;
+    background-color: #2952be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .texto1{
     color: white;
@@ -38,14 +41,15 @@ p{
 .botao{
     color: white;
     font-family: arial, Helvetica, sans-serif;
-    margin-left: 870px;
-    margin-top: 40px;
+    margin-top: 15px;
     font-size: 20px;
-    background-color: red;
-    border-radius: 8px;
+    background-color: #ff6b6b;
+    border-radius: 2px;
     width: 150px;
     height: 50px;
     text-align: center;
+    border:#ff6b6b;
+    cursor: pointer;
 }
 .vermelho2{
     width: 100%;
@@ -140,7 +144,7 @@ p{
 
 .preto{
     width: 100%;
-    height: 110px;
+    height: 126px;
     background-color: black;
     justify-items: center;
 
@@ -153,9 +157,9 @@ p{
     font-size: 15px;
 }
 .titulo1{
-    color: mediumblue ;
+    color: #2952be ;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 25px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
 }
